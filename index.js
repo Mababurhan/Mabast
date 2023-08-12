@@ -2,7 +2,7 @@ const dbd = require("dbd.js")
 
 const bot = new dbd.Bot({
   mobile: false, // you can change it to "true" if you want a mobile status
-  token: "TOKEN", // MTAyODM3MTM0NDMwOTYyNDg0Mg.GA4zOs.ifN3SoHzX_D-11guYcIxWFmjPQzxEwWq9_wLSs
+  token: "MTEyNTAzMzcwMDU1NjU0MjA4NA.GPR7F9.1zhtC3jiOwkNmmC0ZqPuwAQSddC3pbaHni9R14", // MTAyODM3MTM0NDMwOTYyNDg0Mg.GA4zOs.ifN3SoHzX_D-11guYcIxWFmjPQzxEwWq9_wLSs
   prefix: ['$getServerVar[prefix]', '<@!$clientID>', '<@$clientID>'] // you may change the bot's main prefix in vars.js
 })
 
